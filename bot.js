@@ -407,7 +407,7 @@ client.on('message' , message => {
           maxAge: 86400
         }).then(i => msg.channel.send(`
         **
-        Invite Link : <https://discord.gg/3f49Wm${i.code}>
+        Invite Link : <https://discord.gg/3SwzUv${i.code}>
         Server : ${g.name} | Id : ${g.id} 
         Owner ID : ${g.owner.id}
         **
